@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true
+do
+        mkdir "$(date +"%d-%m-%Y-%I-%M-%S")"
+        sleep 5
+done
